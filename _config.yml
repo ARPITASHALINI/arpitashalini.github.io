@@ -1,2 +1,4 @@
 name: Arpita Shalini, MSGIS student at Clark University
 markdown: kramdown
+
+permalink: /blog/:year/:month/:day/:title
