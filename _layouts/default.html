@@ -6,7 +6,19 @@
 		<!-- link to main stylesheet -->
 		<link rel ="stylesheet" type="text/css" href ="/css/main.css">
 	</head>
-	<body style = "background-color: #EFEFAD;">
+	<body style = "- var n = 0
+
+ul.screens
+  while n < 4
+    li(id = ['screen' + n])(class ='screen screen' + n)= n++ 
+      a.back-arrow(href='#screen' + (n - 2))
+        svg(xmlns='http://www.w3.org/2000/svg', viewbox="0 0 50 50")
+          <path d="M25,28.207l-5.354-5.354c-0.195-0.195-0.195-0.512,0-0.707s0.512-0.195,0.707,0L25,26.793l4.646-4.646 		c0.195-0.195,0.512-0.195,0.707,0s0.195,0.512,0,0.707L25,28.207z"/>
+      a.next-arrow(href='#screen' + n)
+        svg(xmlns='http://www.w3.org/2000/svg', viewbox="0 0 50 50")
+          <path d="M25,28.207l-5.354-5.354c-0.195-0.195-0.195-0.512,0-0.707s0.512-0.195,0.707,0L25,26.793l4.646-4.646 		c0.195-0.195,0.512-0.195,0.707,0s0.195,0.512,0,0.707L25,28.207z"/>          
+    
+h1.title.font-effect-vintage CSS BACKGROUNDS">
 		<nav>
     		<ul>
         		<li><a href="/">Home</a></li>
